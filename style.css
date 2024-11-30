@@ -82,6 +82,7 @@ header .login-btn:hover {
 
 /* Product Section */
 .products {
+    background-color: #b8d5ab;
     padding: 40px 20px;
     text-align: center;
 }
@@ -145,4 +146,16 @@ footer {
     padding: 20px;
     background-color: #0F2A1D;
     color: #E3EED4;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #0F2A1D, #375534);
+    color: #E3EED4;
+    overflow: hidden; /* Giữ mượt mà khi sử dụng animation */
+}
+
+body {
+    scroll-behavior: smooth;
 }
